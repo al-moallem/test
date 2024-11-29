@@ -1,0 +1,22 @@
+{
+  "version": 8,
+  "sources": {
+    "raster-tiles": {
+      "type": "raster",
+      "tiles": [
+        "https://osm0.mapandroute.de/osm_tiles_de_motorway/{z}/{x}/{y}.png",
+        "https://osm1.mapandroute.de/osm_tiles_de_motorway/{z}/{x}/{y}.png",
+        "https://osm2.mapandroute.de/osm_tiles_de_motorway/{z}/{x}/{y}.png",
+        "https://osm3.mapandroute.de/osm_tiles_de_motorway/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256
+    }
+  },
+  "layers": [
+    {
+      "id": "raster-layer",
+      "type": "raster",
+      "source": "raster-tiles"
+    }
+  ]
+}
